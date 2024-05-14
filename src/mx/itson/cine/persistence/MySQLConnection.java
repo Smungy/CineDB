@@ -16,7 +16,6 @@ public class MySQLConnection {
     public static Connection get(){
         Connection connection = null;
         try{
-            //connection = DriverManager.getConnection("jdbc:mysql://p3nlmysql165plsk.secureserver.net:3306/miniondb","minuser","mini0n#2023");
             
             connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/cinedb?user=yourusert&password=yourpassword");
             
