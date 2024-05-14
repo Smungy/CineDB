@@ -9,7 +9,7 @@ import java.sql.DriverManager;
 
 /**
  *
- * @author Jesus Alan
+ * @author Jesus Espericueta
  */
 public class MySQLConnection {
     
